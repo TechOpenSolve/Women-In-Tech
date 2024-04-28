@@ -1,4 +1,4 @@
-# Welcome to the Women In Tech Community Repo
+# Welcome to the Women In Tech Repo
 
 This repository is dedicated to addressing issues related to women in the tech industry.
 
