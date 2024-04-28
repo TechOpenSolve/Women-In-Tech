@@ -1,0 +1,50 @@
+name: Women In Tech Issue
+description: Create an issue report to help TechOpenSolve's mission
+labels: [👀 fact checking]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue report!
+  - type: textarea
+    attributes:
+      label: Describe the real-life Issue
+      description: A clear and concise description of what the issue is.
+      value: |
+        ## Description
+
+        ### 1. What is the Issue:
+
+
+        ### 2. Affected Parties:
+
+
+        ### 3. Repetitive Nature:
+
+
+        ### 4. Impact:
+
+
+        ### 5. What Counts as Contribution:
+
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      multiple: true
+      label: Who has faced this issue?
+      description: Select whether you or someone else has faced this issue.
+      options:
+        - "Me"
+        - "Someone else"
+        - "Both"
+        - "Group of people"
+        - "Other (add additional context)"
+  - type: checkboxes
+    id: assistance
+    attributes:
+      label: I have read the CONTRIBUTING.md file
+      description: Assistance is provided if you need help 
+      options:
+        - label: "Yes"
+        - label: 'No'
